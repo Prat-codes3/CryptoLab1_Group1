@@ -1,51 +1,0 @@
-Script started on 2026-08-05 12:23:36+05:30 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="115" LINES="10"]
-[?2004h]0;mnit@mnit: ~/2024UCP1780[01;32mmnit@mnit[00m:[01;34m~/2024UCP1780[00m$ exitbandit -r .[K-versionpip3 install bandit[5P--version[3@ython[C[C[C[C[C[C[C[C[C[C[Cexit[Kpython3 --version
-[?2004lPython 3.10.12
-[?2004h]0;mnit@mnit: ~/2024UCP1780[01;32mmnit@mnit[00m:[01;34m~/2024UCP1780[00m$ python3 --versionexit[Kbandit -r .[K-versionpip3 install bandit[5P--version[3@ython[C[C[C[C[C[C[C[C[C[C[Cexit[Kpython3 --version[3Pip[C[C[C[C[C[C[C[C[C[C[C
-[?2004lpip 25.3 from /home/mnit/.local/lib/python3.10/site-packages/pip (python 3.10)
-[?2004h]0;mnit@mnit: ~/2024UCP1780[01;32mmnit@mnit[00m:[01;34m~/2024UCP1780[00m$ pip3 --version[3@ython[C[C[C[C[C[C[C[C[C[C[Cexit[Kbandit -r .[7Pexitpython3 --version[3Pip[C[C[C[C[C[C[C[C[C[C[C[Kpip3 --version[3@ython[C[C[C[C[C[C[C[C[C[C[Cexit[Kbandit -r .[K-versionpip3 install bandit[5P--versioninstall bandit
-[?2004lDefaulting to user installation because normal site-packages is not writeable
-Requirement already satisfied: bandit in /home/mnit/.local/lib/python3.10/site-packages (1.9.4)
-Requirement already satisfied: PyYAML>=5.3.1 in /usr/lib/python3/dist-packages (from bandit) (5.4.1)
-Requirement already satisfied: stevedore>=1.20.0 in /home/mnit/.local/lib/python3.10/site-packages (from bandit) (5.8.0)
-Requirement already satisfied: rich in /home/mnit/.local/lib/python3.10/site-packages (from bandit) (14.2.0)
-Requirement already satisfied: markdown-it-py>=2.2.0 in /home/mnit/.local/lib/python3.10/site-packages (from rich->bandit) (4.0.0)
-Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/mnit/.local/lib/python3.10/site-packages (from rich->bandit) (2.19.2)
-Requirement already satisfied: mdurl~=0.1 in /home/mnit/.local/lib/python3.10/site-packages (from markdown-it-py>=2.2.0->rich->bandit) (0.1.2)
-
-[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m A new release of pip is available: [0m[31;49m25.3[0m[39;49m -> [0m[32;49m26.2.1[0m
-[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m To update, run: [0m[32;49mpython3 -m pip install --upgrade pip[0m
-[?2004h]0;mnit@mnit: ~/2024UCP1780[01;32mmnit@mnit[00m:[01;34m~/2024UCP1780[00m$ pip3 install bandit[5P--version[3@ython[C[C[C[C[C[C[C[C[C[C[Cexit[Kbandit -r .[K .[K-version
-[?2004lbandit 1.9.4
-  python version = 3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]
-[?2004h]0;mnit@mnit: ~/2024UCP1780[01;32mmnit@mnit[00m:[01;34m~/2024UCP1780[00m$ bandit --versionpip3 install bandit[5P--version[3@ython[C[C[C[C[C[C[C[C[C[C[Cexit[Kbandit -r .[K .
-[?2004l[main]	INFO	profile include tests: None
-[main]	INFO	profile exclude tests: None
-[main]	INFO	cli include tests: None
-[main]	INFO	cli exclude tests: None
-[main]	INFO	running on Python 3.10.12
-[95mRun started:2026-08-05 06:54:15.297400+00:00[0m
-[95m
-Test results:[0m
-	No issues identified.
-[95m
-Code scanned:[0m
-	Total lines of code: 70
-	Total lines skipped (#nosec): 0
-[95m
-Run metrics:[0m
-	Total issues (by severity):
-		Undefined: 0
-		Low: 0
-		Medium: 0
-		High: 0
-	Total issues (by confidence):
-		Undefined: 0
-		Low: 0
-		Medium: 0
-		High: 0
-[95mFiles skipped (0):[0m
-[?2004h]0;mnit@mnit: ~/2024UCP1780[01;32mmnit@mnit[00m:[01;34m~/2024UCP1780[00m$ exit
-[?2004lexit
-
-Script done on 2026-08-05 12:24:36+05:30 [COMMAND_EXIT_CODE="0"]
