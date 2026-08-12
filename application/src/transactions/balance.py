@@ -32,10 +32,10 @@ def show_balance(conn, account_no):
 
     account, name, balance = user
 
-    print("\n===== BALANCE INQUIRY =====")
+    print("\n")
     print(f"Account Number : {account}")
     print(f"Account Holder : {name}")
     print(f"Current Balance: ₹{balance:.2f}")
-    print("============================")
+    print("\n")
 
     return True
