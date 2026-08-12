@@ -5,9 +5,7 @@ def withdraw(user):
     """
     Withdraw money from the user's account.
 
-    NOTE:
-    Input validation is intentionally insufficient for the
-    laboratory vulnerability demonstration.
+
     """
 
     print(f"\nCurrent balance: ₹{user['balance']:.2f}")
