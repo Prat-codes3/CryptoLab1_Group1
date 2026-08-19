@@ -1,4 +1,5 @@
 from shift_cipher import decrypt
+from shift_cipher import encrypt
 
 ENGLISH_FREQ = {
     'A': 8.167, 'B': 1.492, 'C': 2.782,
@@ -11,6 +12,7 @@ ENGLISH_FREQ = {
     'V': 0.978, 'W': 2.360, 'X': 0.150,
     'Y': 1.974, 'Z': 0.074
 }
+
 
 
 def chi_square_stat(text):
@@ -48,3 +50,20 @@ def chi_square_attack(ciphertext):
             best_plaintext = plaintext
 
     return best_key, best_plaintext, min_chi
+
+def main():
+    plain = input("Enter plaintext: ")
+    key = int(input("Enter shift key (0-25): "))
+
+    ciphertext = encrypt(plain, key)
+
+    best, plaintext, mini = chi_square_attack(ciphertext)
+
+    print("\nCiphertext:", ciphertext)
+    print("Predicted Key:", best)
+    print("Recovered Plaintext:", plaintext)
+    print("Chi-Square Value:", mini)
+
+
+if __name__ == "__main__":
+    main()
