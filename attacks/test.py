@@ -12,7 +12,8 @@ test_cases = [
     ("ATTACK AT DAWN", 20),
     ("HI", 5),
     ("CAT", 8),
-    ("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", 12)
+    ("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", 12),
+    ("yoo sup dslkdsj",7)
 ]
 
 output_file = "../outputs/results.csv"
@@ -48,7 +49,7 @@ with open(output_file, "w", newline="") as file:
 
         dict_key, _, _ = dictionary_attack(
             ciphertext,
-            "../dictionary/english_words.txt"
+            "english_words.txt"
         )
 
         chi_key, _, _ = chi_square_attack(ciphertext)
