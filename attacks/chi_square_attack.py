@@ -51,14 +51,19 @@ def chi_square_attack(ciphertext):
 
     return best_key, best_plaintext, min_chi
 
-
 def main():
+    plain = input("Enter plaintext: ")
+    key = int(input("Enter shift key (0-25): "))
 
-   plain = input("Enter plaintext: ")
-   key = int(input("Enter shift key (0-25): "))
-   ciphertext=encrypt(plain,key)
+    ciphertext = encrypt(plain, key)
 
-   best,plaintext,mini=chi_square_attac(ciphertext)
+    best, plaintext, mini = chi_square_attack(ciphertext)
 
-   print(best , plaintext , mini)
+    print("\nCiphertext:", ciphertext)
+    print("Predicted Key:", best)
+    print("Recovered Plaintext:", plaintext)
+    print("Chi-Square Value:", mini)
 
+
+if __name__ == "__main__":
+    main()
