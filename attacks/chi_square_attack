@@ -13,6 +13,7 @@ ENGLISH_FREQ = {
 }
 
 
+
 def chi_square_stat(text):
     text = text.upper()
 
@@ -48,3 +49,5 @@ def chi_square_attack(ciphertext):
             best_plaintext = plaintext
 
     return best_key, best_plaintext, min_chi
+
+
