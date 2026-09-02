@@ -1,0 +1,10 @@
+In the present context, we consider the following experiment: an adver-
+sary A first specifies two arbitrary messages m0, m1 ∈ M. One of these two
+messages is chosen uniformly at random and encrypted using a random key;
+the resulting ciphertext is given to A. Finally, A outputs a “guess” as to
+which of the two messages was encrypted; A succeeds if it guesses correctly.
+An encryption scheme is perfectly indistinguishable if no adversary A can suc-
+ceed with probability better than 1/2. (Note that, for any encryption scheme,
+A can succeed with probability 1/2 by outputting a uniform guess; the re-
+quirement is simply that no attacker can do any better than this.) We stress
+that no limitations are placed on the computational power of A
