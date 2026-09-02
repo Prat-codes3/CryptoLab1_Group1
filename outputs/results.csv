@@ -1,0 +1,10 @@
+Test Case,Actual Key,Dictionary Key,Chi-Square Key,Dictionary Correct?,Chi-Square Correct?
+HELLO WORLD,3,3,6,Yes,No
+THIS IS A TEST,7,7,7,Yes,Yes
+CRYPTOGRAPHY IS FUN,10,10,23,Yes,No
+COMPUTER SECURITY LAB,15,15,15,Yes,Yes
+ATTACK AT DAWN,20,20,20,Yes,Yes
+HI,5,5,20,Yes,No
+CAT,8,8,23,Yes,No
+THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG,12,12,12,Yes,Yes
+yoo sup dslkdsj,7,0,14,No,No
