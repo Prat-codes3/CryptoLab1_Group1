@@ -128,13 +128,13 @@ def verify(original_plaintext, decrypted_plaintext, matrix):
     expected = ''.join(expected_digraphs)
 
     if expected == decrypted_plaintext:
-        return "SUCCESS"
+        return "Verified"
     else:
-        return "FAILED"
+        return "Failed"
 
 
-keyword = "MONARCHY"
-plaintext = "INSTRUMENTS"
+keyword = "CRYPTOLAB"
+plaintext = "ASSIGNMENT SEVEN THIS IS A TEST PLAINTEST FOR THE PLAY FAIR CIPHER"
 
 matrix = generate_key_matrix(keyword)
 
@@ -170,6 +170,3 @@ result = verify(plaintext, decrypted, matrix)
 print("\nVerification:")
 print(result)
 
-print("\nResult:")
-print("Playfair Cipher encryption, decryption, frequency analysis, "
-      "and verification are successfully implemented.")
